@@ -1,0 +1,15 @@
+generated: '2026-08-29'
+method: searched
+source: https://www.starship.xyz/delivery-apps/
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No published rate limits. Starship states on its Delivery Apps page that "Our APIs are designed
+  for quick and easy integration with your existing platform" and that a partner can "create
+  delivery jobs, load robots, obtain status updates and handle delivery cancellations", but the
+  developer toolkit and documentation that would carry limits, response headers and the
+  exhaustion status code are provided only to contracted partners via business@starship.co.
+  No public reference, portal or specification is reachable to read limits from, and the API
+  host api.starship.xyz returns 404 for every unauthenticated path probed. limit_count 0 is an
+  honest zero, not an unchecked field.

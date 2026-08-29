@@ -1,0 +1,60 @@
+generated: '2026-08-29'
+method: probed
+source: live GET of each /.well-known/ path on every host named in apis.yml
+note: >-
+  No /.well-known/ document is served by Starship Technologies. The marketing site
+  (www.starship.xyz, WordPress) answers every unknown /.well-known/ path with a 301 to the
+  homepage, which then returns 200 with the site's HTML shell — a soft-404, NOT a document.
+  The API host (api.starship.xyz) is a real origin and returns a clean text/plain 404 for
+  every path. No WellKnown or SecurityTxt pointer is emitted, because nothing was served.
+hosts:
+- host: www.starship.xyz
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+    note: 301 to https://www.starship.xyz/ which returns 200 text/html (soft-404, not a document)
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+    note: 301 to homepage HTML shell
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+    note: 301 to homepage HTML shell
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+    note: 301 to homepage HTML shell
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: api.starship.xyz
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

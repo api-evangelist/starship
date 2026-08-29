@@ -1,17 +1,33 @@
 aid: starship
-name: Starship
-description: 'Starship is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Starship Technologies
+description: 'Starship Technologies is an autonomous last-mile delivery company that operates a
+  global fleet of self-driving, sidewalk-going delivery robots. Founded in 2014 by Skype co-founders
+  Ahti Heinla and Janus Friis, the company runs commercial robot delivery on university campuses,
+  in residential neighborhoods, on industrial sites and for grocery and restaurant partners across
+  the United States, the United Kingdom, Estonia, Finland, Germany and Denmark, and has completed
+  more than 10 million autonomous deliveries. Its commercial product, Delivery by Starship, is a
+  delivery-as-a-service offering that partners integrate into their own ordering apps: Starship
+  states that its APIs let a partner create delivery jobs, load robots, obtain status updates and
+  handle delivery cancellations, backed by a developer toolkit, documentation, ready-made components
+  and support. That developer surface is not published to the open web — Starship provides it to
+  partners after a commercial conversation via business@starship.co, so no public specification,
+  reference or portal exists to profile.'
 url: https://raw.githubusercontent.com/api-evangelist/starship/refs/heads/main/apis.yml
+image: https://www.starship.xyz/wp-content/uploads/2024/11/cropped-Starship_app_icon_ios_1024-1-192x192.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-29'
 modified: '2026-08-29'
 tags:
 - Company
+- Robotics
+- Autonomous Vehicles
+- Last Mile Delivery
+- Logistics
+- Food Delivery
+- Grocery
+- Delivery as a Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,58 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/starship-domain-security.yml
 - type: Website
+  url: https://www.starship.xyz/
+- type: About
+  url: https://www.starship.xyz/about/
+- type: Blog
+  url: https://www.starship.xyz/newsroom/
+- type: Press
+  url: https://www.starship.xyz/press/
+- type: Support
+  url: https://www.starship.xyz/contact/
+- type: FAQ
+  url: https://www.starship.xyz/faq/
+- type: GitHubOrganization
+  url: https://github.com/starship-technologies
+- type: TermsOfService
+  url: https://www.starship.xyz/legal-terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.starship.xyz/privacy/
+- type: Careers
+  url: https://www.starship.xyz/careers/
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/starship-stock
+- type: LLMsTxt
+  url: llms/starship-llms.txt
+- type: Plans
+  url: plans/starship-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/starship-rate-limits.yml
+x-enrichment:
+  date: '2026-08-29'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    Starship's Delivery Apps page states its APIs create delivery jobs, load robots and return
+    status updates, but the "full developer toolkit, documentation and support" it names is
+    released only after a commercial conversation via business@starship.co — the 43-page site
+    sitemap contains no developer, docs, reference or pricing page at all.
+  evidence:
+  - url: https://www.starship.xyz/delivery-apps/
+    status: 200
+  - url: https://www.starship.xyz/page-sitemap.xml
+    status: 200
+  - url: https://api.starship.xyz/openapi.json
+    status: 404
+  - url: https://api.starship.xyz/graphql
+    status: 404
+  - url: https://www.starship.xyz/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-29'
