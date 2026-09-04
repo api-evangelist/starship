@@ -13,6 +13,19 @@ description: 'Starship Technologies is an autonomous last-mile delivery company 
   partners after a commercial conversation via business@starship.co, so no public specification,
   reference or portal exists to profile.'
 url: https://raw.githubusercontent.com/api-evangelist/starship/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - rate-limits
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://www.starship.xyz/wp-content/uploads/2024/11/cropped-Starship_app_icon_ios_1024-1-192x192.png
 x-type: company
 x-source: harvest:secondary-market
