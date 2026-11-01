@@ -1,4 +1,4 @@
-# Starship
+# Starship Technologies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Starship is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/starship-stock
+Starship Technologies is an autonomous last-mile delivery company that operates a global fleet of self-driving, sidewalk-going delivery robots. Founded in 2014 by Skype co-founders Ahti Heinla and Janus Friis, the company runs commercial robot delivery on university campuses, in residential neighborhoods, on industrial sites and for grocery and restaurant partners across the United States, the United Kingdom, Estonia, Finland, Germany and Denmark, and has completed more than 10 million autonomous deliveries. Its commercial product, Delivery by Starship, is a delivery-as-a-service offering that partners integrate into their own ordering apps: Starship states that its APIs let a partner create delivery jobs, load robots, obtain status updates and handle delivery cancellations, backed by a developer toolkit, documentation, ready-made components and support. That developer surface is not published to the open web — Starship provides it to partners after a commercial conversation via business@starship.co, so no public specification, reference or portal exists to profile.
+
+**Areas:** Company · Robotics · Autonomous Vehicles · Last Mile Delivery · Logistics · Food Delivery · Grocery · Delivery as a Service
+
+## Starship Technologies on APIs.io
+
+Everything profiled for Starship Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/starship/](https://apis.io/providers/starship/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Starship Domain Security](https://apis.io/security/starship/starship-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Starship Plans Pricing](https://apis.io/plans/starship/starship-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Starship Rate Limits](https://apis.io/rate-limits/starship/starship-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.starship.xyz/)
+- [Support](https://www.starship.xyz/contact/)
+- [Blog](https://www.starship.xyz/newsroom/)
+- [Terms of service](https://www.starship.xyz/legal-terms-of-use/)
+- [Privacy policy](https://www.starship.xyz/privacy/)
+- [GitHub](https://github.com/starship-technologies)
+
+## API Evangelist rating
+
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/starship/](https://apis.io/providers/starship/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Starship Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/starship/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
